@@ -25,7 +25,7 @@ function logoff() {
 
 function gerarTabelaAni() {
     require_once($_SERVER['DOCUMENT_ROOT'] . '/Pet-Shop/backend/conexao.php');
-    $header = "http://" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . '/Pet-Shop/';
+    $header = 'https://petto-shoppo-hamtaro.azurewebsites.net/';
 
     // Receber o número da página
     $pagina_atual = filter_input(INPUT_GET, 'pag', FILTER_SANITIZE_NUMBER_INT);
@@ -139,7 +139,7 @@ function altAnimal() {
 
 function gerarTabelaAgenCli() {
     require_once($_SERVER['DOCUMENT_ROOT'] . '/Pet-Shop/backend/conexao.php');
-    $header = "http://" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . '/Pet-Shop/pages/clientes/agendamentosCli.php';
+    $header = 'https://petto-shoppo-hamtaro.azurewebsites.net/pages/clientes/agendamentosCli.php';
 
     // Receber o número da página
     $pagina_atual = filter_input(INPUT_GET, 'pag', FILTER_SANITIZE_NUMBER_INT);
@@ -284,7 +284,7 @@ function checkAnimais() {
 
 function gerarTabelaFazAgenCli() {
     require_once($_SERVER['DOCUMENT_ROOT'] . '/Pet-Shop/backend/conexao.php');
-    $header = "http://" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . '/Pet-Shop/pages/funcionario/agendamentosFun.php';
+    $header = 'https://petto-shoppo-hamtaro.azurewebsites.net/pages/funcionario/agendamentosFun.php';
 
     // Receber o número da página
     $pagina_atual = filter_input(INPUT_GET, 'pag', FILTER_SANITIZE_NUMBER_INT);
@@ -424,7 +424,7 @@ function fazAgendamentoCli() {
 
 function gerarTabelaAgenFun() {
     require_once($_SERVER['DOCUMENT_ROOT'] . '/Pet-Shop/backend/conexao.php');
-    $header = "http://" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . '/Pet-Shop/pages/funcionario/agendamentosFun.php';
+    $header = 'https://petto-shoppo-hamtaro.azurewebsites.net/pages/funcionario/agendamentosFun.php';
 
     // Receber o número da página
     $pagina_atual = filter_input(INPUT_GET, 'pag', FILTER_SANITIZE_NUMBER_INT);
@@ -635,7 +635,7 @@ function getDesc() {
 
 function gerarTabelaDeleteFun() {
     require_once($_SERVER['DOCUMENT_ROOT'] . '/Pet-Shop/backend/conexao.php');
-    $header = "http://" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . '/Pet-Shop/pages/funcionario/listarFuncionario.php';
+    $header = 'https://petto-shoppo-hamtaro.azurewebsites.net/pages/funcionario/listarFuncionario.php';
 
     // Receber o número da página
     $pagina_atual = filter_input(INPUT_GET, 'pag', FILTER_SANITIZE_NUMBER_INT);
@@ -867,7 +867,7 @@ function animais() {
 
 function tabelaFunAgenCli(){
     require_once($_SERVER['DOCUMENT_ROOT'] . '/Pet-Shop/backend/conexao.php');
-    $header = "http://" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . '/Pet-Shop/pages/funcionario/agendarParaCliente.php';
+    $header = 'https://petto-shoppo-hamtaro.azurewebsites.net/pages/funcionario/agendarParaCliente.php';
 
     // Receber o número da página
     $pagina_atual = filter_input(INPUT_GET, 'pag', FILTER_SANITIZE_NUMBER_INT);
@@ -1004,7 +1004,7 @@ function fazerAgenParaCli(){
 
 function verificar(){
     require_once($_SERVER['DOCUMENT_ROOT'] . '/Pet-Shop/backend/conexao.php');
-    $header = "http://" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . '/Pet-Shop/';
+    $header = 'https://petto-shoppo-hamtaro.azurewebsites.net/';
 
     $cpf = $_GET['cpf'];
 
@@ -1114,7 +1114,7 @@ function verificar(){
 
 function tabelaComentarios() {
     require_once($_SERVER['DOCUMENT_ROOT'] . '/Pet-Shop/backend/conexao.php');
-    $header = "http://" . $_SERVER['SERVER_NAME'] . ":" . $_SERVER['SERVER_PORT'] . '/Pet-Shop/pages/funcionario/comentarios.php';
+    $header = 'https://petto-shoppo-hamtaro.azurewebsites.net/pages/funcionario/comentarios.php';
     
     
     $filtroData = $_GET['data'];
